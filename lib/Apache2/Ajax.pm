@@ -10,7 +10,7 @@ use Apache2::RequestUtil ();
 use Apache2::Log;
 use Apache2::Module ();
 
-our $VERSION = '0.1';
+our $VERSION = '0.11';
 
 my @directives = (
                   {name      => 'PJX_fn',
